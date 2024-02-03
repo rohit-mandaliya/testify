@@ -14,9 +14,9 @@ use Livewire\Livewire;
 */
 
 Livewire::setUpdateRoute(function ($handle) {
-    return Route::post('qsync-backend/public/livewire/update', $handle);
+    return Route::post('testify/public/livewire/update', $handle);
 });
 
 Livewire::setScriptRoute(function ($handle) {
-    return Route::get('qsync-backend/vendor/livewire/livewire/dist/livewire.js', $handle);
+    return Route::get('testify/vendor/livewire/livewire/dist/livewire.js', $handle);
 });

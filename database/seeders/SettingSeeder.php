@@ -16,7 +16,7 @@ class SettingSeeder extends Seeder
      */
     public function run(): void
     {
-        $this->APP_NAME = env('APP_NAME', 'QSync');
+        $this->APP_NAME = env('APP_NAME', 'Testify');
 
         $this->seedGeneralGroup();
         $this->seedMaintenanceGroup();

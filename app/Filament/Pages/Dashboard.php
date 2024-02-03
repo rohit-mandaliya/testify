@@ -11,6 +11,6 @@ class Dashboard extends BaseDashboard
 
     public function getHeading(): string|Htmlable
     {
-        return "Dashboard QSync";
+        return "Dashboard Testify";
     }
 }
